@@ -3,56 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Landing Page</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li class="header-logo">Header Logo</li>
-            <li>Link 1</li>
-            <li>Link 2</li>
-            <li>Link 3</li>
-        </ul>
-    </nav>
     <section class="dark-background">
-        <div>
-            <h1 class="hero-main-text">This website is awesome!</h1>
-            <p class="hero-secondary-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dicta nihil voluptatem?</p>
-            <button class="signup-color">Sign up</button>
-        </div>
-        <div>
-            <img src="" alt="Hero Image">
+        <nav>
+            <ul>
+                <li class="header-logo">Header Logo</li>
+                <li class="hero-secondary-text">Link 1</li>
+                <li class="hero-secondary-text">Link 2</li>
+                <li class="hero-secondary-text">Link 3</li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <div class="hero-heading-and-text">
+                <h1 class="hero-main-text">This website is awesome!</h1>
+                <p class="hero-secondary-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dicta nihil voluptatem?</p>
+                <button class="signup-color hero-call-to-action">Sign up</button>
+            </div>
+            <img src="" alt="Hero Image item" class="hero-image">
         </div>
     </section>
     <section>
         <h2 class="information-header-text">Some Random Information</h2>
-        <div class="container">
+        <div class="card-container">
             <div class="card">
-                <img src="" alt="">
+                <div class="item"></div>
                 <p class="subtext">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, facere?
                 </p>
             </div>
             <div class="card">
-                <img src="" alt="Image 1">
+                <div class="item"></div>
                 <p class="subtext">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, facere?
                 </p>
             </div>
             <div class="card">
-                <img src="" alt="Image 2">
+                <div class="item"></div>
                 <p class="subtext">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, facere?
                 </p>
             </div>
             <div class="card">
-                <img src="" alt="Image 3">
-                <p class="subtext">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, facere?
-                </p>
-            </div>
-            <div class="card">
-                <img src="" alt="Image 4">
+                <div class="item"></div>
                 <p class="subtext">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, facere?
                 </p>
@@ -61,24 +56,27 @@
     </section>
     <section class="quote-section">
         <figure>
-            <blockquote>
+            <blockquote class="citation">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque dolorum laboriosam nisi voluptatum quam expedita voluptatem molestiae illo harum facere.
             </blockquote>
             <figcaption>
-                Lorem ipsum dolor sit amet.
+                -Lorem ipsum dolor sit amet.
             </figcaption>
         </figure>
     </section>
-    <section>
+    <section class="CTA-section">
         <div class="call-to-action">
-            <h2>Call to Action! It's Time!</h2>
-            <p class="subtext">
+            <div class="CTA-heading-and-text">
+                <h2 class="header-logo">Call to Action! It's Time!</h2>
+                <p class="hero-secondary-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, voluptas!
-            </p>
-            <button class="signup-color">Sign up</button>
+                </p>
+            </div>
+            
+            <button class="signup-color call-to-action-button">Sign up</button>
         </div>
     </section>
-    <footer>
+    <footer class="dark-background">
         Copyright - The Odin Project
     </footer>
 </body>
