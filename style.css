@@ -1,0 +1,40 @@
+blockquote {
+    color: #1f2937;
+    font-size: 32px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.dark-background {
+    background-color: #1f2937;
+}
+
+.hero-main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.signup-color {
+    background-color: #3882f6;
+}
+
+.information-header-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+}
